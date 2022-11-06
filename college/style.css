@@ -39,13 +39,6 @@ nav ul ul{
     display: none;
 }
 .menu{
-    /* clear: left; */
-    position: relative;
-    display: inline-block;
-    /* position: absolute; */
-    display: none;
-}
-.menu{
     display: none;
     position: absolute;
     background-color: #07a559;
@@ -76,7 +69,14 @@ nav ul li a:hover{
     color: #c0d96f;
 }
 /* Middle */
-
+.department{
+    padding: 50px;
+}
+.department-photo{
+    display: inline-block;
+    padding: 100px 10px 50px 180px;
+    justify-content: center;
+}
 
 .body{
     height: 100%;
@@ -91,10 +91,9 @@ nav ul li a:hover{
 
 }
 .container{
-    height: 300px;
-    width: 500px;
+    
     text-align: center;
-    ;
+    
 }
 .container img{
     padding: 10px;
